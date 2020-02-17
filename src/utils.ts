@@ -18,4 +18,11 @@
 //   });
 // }
 
+// 优化 console
+// export function debug(...args: any) {
+//   console.group('%c essay-outline: ', 'color: white;background:#1791f2;');
+//   console.debug('%clog:', 'color: red', ...args);
+//   console.groupEnd();
+// }
+
 export default () => {};
